@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>夜市人生</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">夜市人生</a>
+      <ul class="nav-menu">
+        <li><a href="#products">產品介紹</a></li>
+        <li><a href="#about">關於我們</a></li>
+        <li><a href="#contact">聯絡我們</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="hero">
+    <div class="hero-text">
+      <h1>一瓶清潔劑，讓你回到夜市現場</h1>
+      <a href="#products" class="btn btn-hero">了解產品</a>
+    </div>
+  </header>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <h2>夜市人生產品介紹</h2>
+    <div class="product-list">
+      <div class="product-item">
+        <img src="images/product1.jpg" alt="萬能除油劑">
+        <div class="product-info">
+          <h3>萬能除油劑</h3>
+          <p>有效去除油垢、污漬</p>
+        </div>
+      </div>
+      <div class="product-item">
+        <img src="images/product2.jpg" alt="水垢還原劑">
+        <div class="product-info">
+          <h3>水垢還原劑</h3>
+          <p>恢復水龍頭、浴室光潔</p>
+        </div>
+      </div>
+      <div class="product-item">
+        <img src="images/product3-lavender.jpg" alt="地板清潔劑-薰衣草">
+        <div class="product-info">
+          <h3>地板清潔劑 - 薰衣草</h3>
+          <p>清香怡人，適合各種地板</p>
+        </div>
+      </div>
+      <div class="product-item">
+        <img src="images/product3-lemon.jpg" alt="地板清潔劑-清香檸檬">
+        <div class="product-info">
+          <h3>地板清潔劑 - 清香檸檬</h3>
+          <p>香氣清新，適合各種地板</p>
+        </div>
+      </div>
+      <div class="product-item">
+        <img src="images/product3-sandalwood.jpg" alt="地板清潔劑-沉香檜木">
+        <div class="product-info">
+          <h3>地板清潔劑 - 沉香檜木</h3>
+          <p>濃郁木香，適合各種地板</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- About Section -->
+<section id="about" class="about">
+  <h2>關於夜市人生</h2>
+  <div class="about-content">
+    <div class="about-text">
+      <p>夜市人生是一個致力於帶給大家回憶中的夜市味道的品牌，我們的產品不僅能夠有效地去除油汙、污漬、水垢，還能夠讓你的家散發出夜市的清香味道。我們的產品均採用天然植物成分，無毒無害，不傷皮膚，安全可靠。</p>
+    </div>
+    <div class="about-img">
+      <img src="images/about.jpg" alt="關於夜市人生">
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <h2>聯絡我們</h2>
+  <div class="contact-content">
+    <form action="submit-form.php" method="POST">
+      <div class="form-group">
+        <label for="name">姓名：</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">電子郵件：</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">訊息：</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-submit">送出</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2023 夜市人生</p>
+  </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.3/dist/umd/popper.min.js"
+  integrity="sha384-nivGZpiBhvg0dH+/lLPQ2st7Rtrj+JFt7onXtHq89tq+gPklchBb7oJh05j+VzC6"
+  crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
